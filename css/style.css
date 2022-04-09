@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(54, 54, 54);
+    margin: 0;
+}
+.cabecalho {
+    background-image: url(/imagens/bg-4.jpg);
+    background-size:cover;
+    height: 600px;
+    box-shadow: 0 5px 10em black;
+}
+.titulo {
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+}
+.titulo h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    text-shadow: 2px 3px black;
+    margin-bottom: 70px;
+}
+.titulo p {
+    display: inline;
+    background-color: rgba(0,0,0, .7);
+    padding: 15px;
+    border-bottom: 2px solid white;
+}
+
+
+ul {
+    margin-top: 0;
+    list-style: none;
+    display: flex;
+    margin-left: 70vw;
+
+}
+
+li {
+    margin-left: 25px;
+    background-color: rgba(0,0,0, 0.2);
+    padding: 10px;
+    margin-top: 30px;
+    border: 1.5px solid white;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0, 0.3);
+}
+
+li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.secao {
+    width: 75%;
+    margin: auto;
+}
+.secao1, .secao2{
+    margin-top: 20px;
+    background-color: rgb(177, 177, 177);
+    padding: 20px;
+    overflow: auto;
+}
+.secao1 p {
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: rgb(85, 85, 85);
+    margin-top: 0;
+    
+}
+
+.secao2 h2{
+    background-color: #dadada;
+    padding: 10px;
+    border-bottom: 2px solid #979797;
+}
+.img1, .img2, .img3{
+    width: 100%;
+}
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 1%;
+}
+
+
+.rodape {
+    text-align: center;
+    background-color: rgb(119, 119, 119);
+    margin-top: 20px;
+    padding: 15px;
+    color: white;
+    text-shadow: 0 2px black;
+}
