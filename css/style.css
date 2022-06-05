@@ -40,7 +40,7 @@ li {
     margin-left: 25px;
     background-color: rgba(0,0,0, 0.2);
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 26px;
     border: 1.5px solid white;
 }
 
@@ -57,6 +57,10 @@ li a{
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+}
+
 .secao {
     width: 75%;
     margin: auto;
@@ -64,7 +68,7 @@ li a{
 .secao1, .secao2{
     margin-top: 20px;
     background-color: rgb(177, 177, 177);
-    padding: 20px;
+    padding: 20px 20px 4px 20px;
     overflow: auto;
 }
 .secao1 p {
@@ -73,16 +77,25 @@ li a{
     padding: 10px;
     background-color: rgb(85, 85, 85);
     margin-top: 0;
-    
 }
 
 .secao2 h2{
     background-color: #dadada;
-    padding: 10px;
-    border-bottom: 2px solid #979797;
+    padding: 10px 0px 4px 16px;
+    border-bottom: 12px solid #979797;
+    text-transform: capitalize;
+    font-size: 30px;
+    border-top-right-radius: 20px;
+    margin-top: 4px;
+}
+
+.secao2 p{
+    text-align: justify;
+    font-family: Verdana;
 }
 .img1, .img2, .img3{
     width: 100%;
+    border-top-right-radius: 30px;
 }
 .card{
     width: 32%;
@@ -97,6 +110,5 @@ li a{
     background-color: rgb(119, 119, 119);
     margin-top: 20px;
     padding: 15px;
-    color: white;
-    text-shadow: 0 2px black;
+    color: #f0f0f0;
 }
